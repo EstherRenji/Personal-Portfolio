@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Esther Renji — Portfolio</title>
+  <meta name="description" content="Portfolio of Esther Renji — MCA student specializing in web development and data science." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ===== Sticky Navbar ===== -->
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#top" aria-label="Esther Renji">ER</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#education">Education</a>
+        <a class="nav-link" href="#certifications">Certifications</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <main id="top">
+    <section id="hero" class="section hero">
+      <div class="container">
+        <div class="hero-inner" data-reveal>
+          <h1 class="hero-title">Hi, I’m <span class="accent">Esther Renji</span></h1>
+          <p class="hero-sub">MCA Student • Web Development & Data Science</p>
+          <p class="hero-tagline">
+            I build practical solutions—from full-stack web apps to ML/NLP projects—balancing
+            versatility (range) with end-to-end execution (depth).
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="#contact" class="btn ghost">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section id="about" class="section">
+      <div class="container" data-reveal>
+        <h2 class="section-title">About Me</h2>
+        <p class="lead">
+          Highly motivated BCA graduate, currently pursuing MCA. I enjoy turning ideas into useful tools.
+          My portfolio is curated to demonstrate a <strong>wide range of skills</strong> (web, data, teamwork)
+          and <strong>depth</strong> (owning design, implementation, and iteration).
+        </p>
+
+        <div class="cards two-col">
+          <article class="card">
+            <h3>Technical Skills</h3>
+            <ul class="pill-list">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li><li>PHP</li>
+              <li>MySQL</li><li>Python (NLP/ML)</li><li>C</li><li>C++</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Soft Skills</h3>
+            <ul class="pill-list">
+              <li>Goal Oriented</li><li>Growth Mindset</li><li>Proactive</li>
+              <li>Cognitive Flexibility</li><li>Time Management</li><li>Resilience</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="cards two-col" style="margin-top:1rem">
+          <article class="card">
+            <h3>Tools</h3>
+            <ul class="pill-list">
+              <li>Google Workspace</li><li>Microsoft Office</li><li>Canva</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Languages</h3>
+            <ul class="pill-list">
+              <li>English</li><li>Malayalam</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section id="projects" class="section">
+      <div class="container" data-reveal>
+        <h2 class="section-title">Projects</h2>
+
+        <div class="grid">
+          <article class="project-card">
+            <div class="project-top">
+              <h3>Doctor-Patient Portal</h3>
+              <span class="badge">Web / Full-Stack</span>
+            </div>
+            <p>
+              A web platform to streamline communication, appointment scheduling, medical history viewing,
+              and prescription access. Doctors manage schedules and patient records; patients book and track care.
+            </p>
+            <p class="stack">PHP • Bootstrap • HTML • CSS • JavaScript • MySQL</p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-top">
+              <h3>Terrorism Detection from Social Media</h3>
+              <span class="badge">ML / NLP</span>
+            </div>
+            <p>
+              Python system using NLP + ML (e.g., Logistic Regression) to classify social media content
+              and flag potential terrorism-related activity in near real-time.
+            </p>
+            <p class="stack">Python • NLP • Machine Learning</p>
+          </article>
+        </div>
+
+        <p class="note">
+          Curated for range (web, data; healthcare & public safety domains) and depth (end-to-end delivery).
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== Education ===== -->
+    <section id="education" class="section">
+      <div class="container" data-reveal>
+        <h2 class="section-title">Education</h2>
+        <ul class="timeline">
+          <li>
+            <h3>MCA — Mahatma Gandhi University <span class="mute">(Ongoing)</span></h3>
+          </li>
+          <li>
+            <h3>BCA — Saintgits College of Applied Sciences, MG University <span class="mute">(2021–24)</span></h3>
+          </li>
+          <li>
+            <h3>Higher Secondary — Indian School, Ras Al Khaimah <span class="mute">(2020–21)</span></h3>
+          </li>
+          <li>
+            <h3>SSLC — Indian School, Ras Al Khaimah <span class="mute">(2018–19)</span></h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== Certifications ===== -->
+    <section id="certifications" class="section">
+      <div class="container" data-reveal>
+        <h2 class="section-title">Certifications</h2>
+        <ul class="list">
+          <li>TCS iON Career Edge — Young Professional <span class="mute">| 2022</span></li>
+          <li>Fundamentals of Digital Marketing — Google <span class="mute">| 2022</span></li>
+          <li>Introduction to Data Analytics • Data Analytics with R • Machine Learning with Python — IBM <span class="mute">| 2023</span></li>
+        </ul>
+
+        <h3 class="section-subtitle" style="margin-top:1.5rem">Presentation</h3>
+        <p>
+          International Paper Presentation — <em>Melanoma Skin Cancer Prediction Using Machine Learning</em>,
+          published in IRJMETS, March 2024.
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="section">
+      <div class="container" data-reveal>
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-grid">
+          <div class="contact-item">
+            <span class="contact-label">Phone</span>
+            <a href="tel:+918590182635" class="link">+91 8590182635</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Email</span>
+            <a href="mailto:estherrenjimain@gmail.com" class="link">estherrenjimain@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label">Location</span>
+            <span>Pathanamthitta, Kerala, India</span>
+          </div>
+        </div>
+        <p class="cta">
+          Looking for opportunities where I can apply both technical depth and interdisciplinary skills. Let’s connect!
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      © <span id="year"></span> Esther Renji
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
